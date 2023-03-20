@@ -33,16 +33,16 @@ Optional: Include a visualization that describes your model’s performance, e.g
 
 Since the median cooking time in minutes is 35 minutes, we split our two groups into recipes with a cooking time over 103 minutes, and recipes with a cooking time under 35 minutes.
 
-#### Group X: Recipes with cooking time under 35 minutes
+#### **Group X:** Recipes with cooking time under 35 minutes
 
-#### Group Y: Recipes with cooking time over 35 minutes
+#### **Group Y:** Recipes with cooking time over 35 minutes
 
 Since we chose to use a regression model, our evaluation metrics will be RMSE.
 
-### Null Hypothesis: 
+### **Null Hypothesis:** 
 Our model is fair. Its RMSE for recipes with cooking time under and over 35 minutes are roughly the same, and any differences are due to random chance.
 
-### Alternative Hypothesis: 
+### **Alternative Hypothesis:**
 Our model is unfair. Its RMSE for recipes with cooking time under 35 is lower than its RMSE for recipes with cooking time over 35 minutes. 
 
 For our permutation test, we are examining if the distribution of RMSE when using the model on Group X and Group Y come from the same distribution. Since the two distributions are quantitative numerical, and have similar basic shapes, our test statistic is going to be the difference in RMSE.
