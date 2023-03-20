@@ -33,11 +33,9 @@ Optional: Include a visualization that describes your model’s performance, e.g
 
 Since the median cooking time in minutes is 35 minutes, we split our two groups into recipes with a cooking time over 103 minutes, and recipes with a cooking time under 35 minutes.
 
-#### Group X: R
-ecipes with cooking time under 35 minutes
+#### Group X: Recipes with cooking time under 35 minutes
 
-#### Group Y: 
-Recipes with cooking time over 35 minutes
+#### Group Y: Recipes with cooking time over 35 minutes
 
 Since we chose to use a regression model, our evaluation metrics will be RMSE.
 
