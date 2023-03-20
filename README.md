@@ -12,7 +12,7 @@ In order to predict the **ratings** of recipes, we are building a **regressor mo
 For our baseline model, we are using many of the columns created from the nutrition column as features, specifically total fat, sugar, sodium, protein, saturated fat, carbohydrates, as well as minutes.  All of our features were quantitative. The features for total fat, sugar, sodium, protein, saturated fat, and carbohydrates were all extracted from the nutrition column, which we performed in our data cleaning from our EDA.
 
 #### Quantitative Features:
-- total fat (test)
+- total fat
 - sugar
 - sodium
 - protein
