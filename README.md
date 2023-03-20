@@ -23,6 +23,24 @@ For our baseline model, we are using many of the columns created from the nutrit
 Using these features the performance of our model is not as good as it could be, being that the RMSE is greater than 1.
 
 ## Final Model
+
+### New Features
+The features we used in our final model include 
+#### Quantitative Features:
+- minutes
+- n_steps
+- calories
+- n_ingredients
+
+#### Ordinal Features:
+#### Nominal Features:
+'minutes','review','description','n_steps','calories','n_ingredients'
+
+### Hyperparameters
+
+### Improvement
+
+### Confusion Matrix Visualization
 State the features you added and why they are good for the data and prediction task. Note that you can’t simply state “these features improved my accuracy”, since you’d need to choose these features and fit a model before noticing that – instead, talk about why you believe these features improved your model’s performance from the perspective of the data generating process.
 
 Describe the model you chose, the hyperparameters that ended up performing the best, and the method you used to select hyperparameters and your overall model. Describe how your Final Model’s performance is an improvement over your Baseline Model’s performance.
